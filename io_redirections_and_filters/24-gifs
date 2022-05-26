@@ -1,2 +1,2 @@
 #!/bin/bash
-find . *.gif -printf %f | cut -d\. -f 2- 
+find . *.gif -printf %f | cut -d\. -f 2- | sort -f 
