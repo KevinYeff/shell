@@ -14,7 +14,7 @@ do
 		;;
 		"17")
 		echo "$COUNTER"
-		echo "bad lick from Italy"
+		echo "bad luck from Italy"
 		;;
 		*)
 		echo $COUNTER
