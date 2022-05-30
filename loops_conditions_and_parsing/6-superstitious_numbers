@@ -3,20 +3,22 @@
 COUNTER=1
 while [ $COUNTER -le 20 ]
 do
-	if [ $COUNTER = 4 ]
-	then 
+	case $COUNTER in
+		"4")
 		echo "$COUNTER"
 		echo "bad luck from China"
-	elif [ $COUNTER = 9 ]
-	then 
+		;;
+		"9")
 		echo "$COUNTER"
 		echo "bad luck from Japan"
-	elif [ $COUNTER = 17 ]
-	then
+		;;
+		"17")
 		echo "$COUNTER"
-		echo "bad lucck from Italy"
-	else
-		echo "$COUNTER"
-	fi
-	((COUNTER+=1))
+		echo "bad lick from Italy"
+		;;
+		*)
+		echo $COUNTER
+		;;
+esac
+((COUNTER+=1))
 done
