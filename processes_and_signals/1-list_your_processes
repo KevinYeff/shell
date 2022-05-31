@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script list processes.
+ps auf 	#a stands for all users, u stands for user-oriented and f stands for hierarchy.
