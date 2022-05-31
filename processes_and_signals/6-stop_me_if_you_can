@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # This script stops the process by its name.
-pkill -f ./4-to_infinity_and_beyond 
+pkill -f ./4-to_infinity_and_beyond
+
 # pkill look up or signal processes based on name and other attributes. 
 #When -f option is used the command matches against full argument lists. 
 #Use f flag to use the full command line.
