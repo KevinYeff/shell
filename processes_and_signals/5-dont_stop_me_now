@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 # This script stops the process by its name.
-kill $(pgrep -f ./4-to_infinity_and_beyond) #the kill command will stop the process (terminated), By default, pgrep matches only against the process name. When -f option is used the command matches against full argument lists. use f flag to use the full command line
+kill "$(pgrep -f ./4-to_infinity_and_beyond)" 
+#the kill command will stop the process (terminated), By default, pgrep matches only againstthe process name. 
+#When -f option is used the command matches against full argument lists. 
+#Use f flag to use the full command line.
