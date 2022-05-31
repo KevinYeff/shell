@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Tell the story of passwd
+FILE=/etc/passwd
+while IFS=":" read -r USN PASS USID GRID USIDI HODIR CSHELL 
+do
+	echo "The user $USN is part of the $GRID gang, lives in $HODIR and rides $CSHELL. $USID's place is protected by the passcode $PASS, more info about the user here: $USIDI" 
+done < "$FILE"
