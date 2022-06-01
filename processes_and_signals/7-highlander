@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays its own PID.
+# This script displays: To infinity and beyond indefinitely, With a sleep 2 in between each iteration and displays I am invincible!!! when receiving a SIGTERM signal.
 while :
 do
 	echo "to infinity and beyond"
